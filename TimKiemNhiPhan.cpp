@@ -12,7 +12,7 @@ int Binary(int a[],int n, int x){
       r = mid;
     }
   }
-  if(a[mid] == x) {return l;}
+  if(a[l] == x) {return l;}
   return -1;
 }
 int main(){
